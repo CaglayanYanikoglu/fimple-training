@@ -1,0 +1,38 @@
+● GIT
+● HTML ve detayları
+● CSS ve detayları
+● Responsive layouts (flex, grid)
+● JS Giriş
+● Javascript Ekleme
+● DOM, DOM Manipülasyonu
+● Try Catch
+● Fetch Api
+● Array Functions
+● Linting, Clean Code
+● Async JavaScript (callback, promises, async await)
+● Reference Types
+● Mutations
+● Hoisting
+● Debugging
+● ES6, Closures, this - binding
+● Event Loop
+● Node Environment
+● Task runners, modüle bundlers
+● CSR, SSR, SSG
+● Linting, Clean Code
+● React Giriş
+● SPA
+● Component
+● Class Constructor
+● State, Props
+● Lifecycles
+● Function Component
+● Hooks
+● Router
+● Hoc
+● Portal
+● Lazy Load, Code Split
+● Component Design Patterns
+
+● Performance
+● Error Boundaries
