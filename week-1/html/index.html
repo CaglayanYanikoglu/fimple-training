@@ -21,7 +21,7 @@
 <!-- The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc. -->
 
 <body>
-<!--   <p style="font-size: 20px;"> <strong><i>This element defines a paragraph.</i></strong> </p>
+<!--   <p style="font-size: 20px;"> Test <strong><i>This element defines a paragraph.</i></strong> </p>
   <h1> This element defines a large heading.. </h1>
   <span>This is a span.</span>
   <a href="https://www.w3schools.com" target="_blank">Go to link</a>
@@ -31,6 +31,7 @@
   <!-- HTML links are defined with the <a> tag: -->
   <!-- <a href="https://www.w3schools.com">This is a link</a> -->
 
+
   <!-- By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link -->
   <!-- <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a> -->
 
@@ -39,26 +40,26 @@
 
   <!-- Images -->
   <!-- <img src="cat.jpeg" alt="Cute cat" width="104" height="142"> -->
-  <img src="cat.jpeg" width="100" height="100">
+  <!-- <img src="cat.jpeg" width="100" height="100"> -->
 
   <!-- Style attribute -->
-  <!-- <p style="color:red;">This is a red paragraph.</p> -->
+  <!-- <p style="color:red; font-size: 40px;">This is a red paragraph.</p> -->
 
   <!-- Title attribute -->
-  <!-- <h2 title="I'm a header">The title Attribute</h2> -->
+  <!-- <h2 title="World Food Organization">WFO</h2> -->
 
-  <!-- <p>
-    My Bonnie lies over the ocean.
-
-    My Bonnie lies over the sea.
+<!--   <p>
+    My Bonnie lies over the ocean.       My Bonnie lies over the sea.
 
     My Bonnie lies over the ocean.
+
+       
 
     Oh, bring back my Bonnie to me.
-  </p>
+  </p> -->
 
 
-  <pre>
+<!--   <pre>
   My Bonnie lies over the ocean.
 
   My Bonnie lies over the sea.
@@ -68,9 +69,10 @@
   Oh, bring back my Bonnie to me.
 </pre> -->
 
-  <!-- Formatting -->
-  <!-- The HTML <b> element defines bold text, without any extra importance. -->
-  <!-- <b>This text is bold</b> -->
+<!-- Formatting -->
+<!-- <b>This text is bold test</b>
+<b>This another test</b> -->
+<!-- The HTML <b> element defines bold text, without any extra importance. -->
   <!-- The HTML <strong> element defines text with strong importance. The content inside is typically displayed in bold. -->
   <!-- <strong>This text is important!</strong> -->
 
@@ -83,8 +85,8 @@
   <!-- COMMENTS TAGS: Write your comments here -->
   <!-- HTML comments are not displayed in the browser, but they can help document your HTML source code. -->
 
-  <!-- The <table> tag defines an HTML table. -->
-  <!--  <table style="width:100%">
+  <!-- The <table> tag defines an HTML table.  -->
+<!--    <table style="width:100%">
     <thead>
       <tr>
         <th>Firstname</th>
@@ -109,7 +111,7 @@
   </table> -->
 
   <!-- To make a cell span more than one row, use the rowspan attribute: -->
-  <!-- <table style="width:100%">
+<!--   <table style="width:100%">
     <tr>
       <th>Name:</th>
       <td>Bill Gates</td>
@@ -124,39 +126,40 @@
   </table> -->
 
   <!-- An unordered list starts with the <ul> tag. Each list item starts with the <li> tag. -->
-  <!-- <ul>
+<!--   <ul>
     <li>Coffee</li>
     <li>Tea</li>
     <li>Milk</li>
   </ul> -->
 
   <!-- An ordered list starts with the <ol> tag. Each list item starts with the <li> tag. -->
-  <!-- <ol>
+<!--   <ol>
     <li>Coffee</li>
     <li>Tea</li>
     <li>Milk</li>
+    <li>Bread</li>
   </ol> -->
 
   <!-- <div>
     <a href="https://www.w3schools.com/html/html_blocks.asp" target="_blank">Html Blocks</a>
-  </div> -->
-  <!-- <div>This is a div</div> -->
-  <!-- <span class="test-span" id="test-span-id">This is a span</span>
+  </div>
+  <div>This is a div</div>
+  <span class="test-span" id="test-span-id">This is a span</span>
   <span class="test-span">Test</span> -->
 
   <!-- Class attribute -->
-  <!-- <div class="city">
+<!--   <div class="city">
     <h2>Tokyo</h2>
     <p>Tokyo is the capital of Japan.</p>
-  </div> -->
+  </div>
 
-  <!-- <h1 id="myHeader">My Header</h1> -->
+  <h1 id="myHeader">My Header</h1> -->
 
   <!-- An HTML iframe is used to display a web page within a web page. -->
-  <!-- <iframe src="iframe.html" title="description"></iframe> -->
+  <!-- <iframe src="iframe.html" title="description" width="500"></iframe> -->
 
   <!-- Semantic elements = elements with a meaning. -->
-  <!-- <article>
+<!--   <article>
     <h2>Google Chrome</h2>
     <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web
       browser today!</p>
@@ -165,22 +168,30 @@
   <!--     Symbols that are not present on your keyboard can also be added by using entities. -->
 
 
-  <p>I will display &euro;</p>
+  <!-- <p>I will display &euro;</p> -->
 
   <!-- Emojis are characters from the UTF-8 character set: 😄 😍 💗 -->
-  <!--  Emojis look like images, or icons, but they are not.
-  They are letters (characters) from the UTF-8 (Unicode) character set. -->
+   <!-- Emojis look like images, or icons, but they are not.
+  They are letters (characters) from the UTF-8 (Unicode) character set. 
 
-  <!-- <h1>My First Emoji</h1>
+  <h1>My First Emoji</h1>
 
   <p>&#128512;</p> -->
 
   <!-- HTML FORMS -->
-  <form>
+  <br />
+  <form id="userForm">
     <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname"><br>
+    <input type="text" id="fname" name="fname" required><br>
     <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname">
+    <input type="text" id="lname" name="lname"><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br>
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="lname"><br>
+
+    <label for="smoking-input">Smoking allowed: </label>
+    <input type="checkbox" id="smoking-input" />
 
     <div>
       <label for="cars">Choose a car:</label>
@@ -196,9 +207,10 @@
         The cat was playing in the garden.
       </textarea>
     </div>
-    <!-- button type="button">Add address</button>
-    <button>Submit</button> -->
-    <input type="submit" value="Test">
+    <button  type="button">Add image</button>
+    <button>Submit</button>
+    <!-- <input type="submit" value="Test">
+    <button>Test</button> -->
     <!-- <a href="https://www.w3schools.com/html/html_forms.asp" target="_blank">More Info</a> -->
   </form>
 

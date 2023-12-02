@@ -1,17 +1,25 @@
 html {
   /* font-size: 2rem; */
+  font-size: 32px;
 }
 body {
   /* font-size: 0.8em; */
-  padding: 20px;
+  padding: 27px;
+  /* font-size: 0.6rem; */
 }
 
 .colorfull-text {
-  color: #56ac06;
+  /* color: rgba(0, 0, 0, 0.1); */
+  /* RGB(RED GREEN blue) */
 }
 
 .box-model {
   margin: 20px 0;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #ddd;
+  padding: 12px;
+  box-sizing: border-box;
 }
 
 .border-box-example {
@@ -44,22 +52,24 @@ a:visited {
   color: orange;
 }
 
-button:active, button:focus {
+button:active,
+button:focus {
   color: lightblue;
   background-color: lightgoldenrodyellow;
 }
 
 .font {
-  font-family: Tahoma, Verdana, sans-serif; /* If the first font does not work, the browser will try the next one, and the next one, and so on. */
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-style: italic;
   /* font-size: 2.5rem; */
-  font-size: 2.5em;
+  font-size: 2.5rem;
+  /* font-size: 50px; */
 }
 
 .ellipsis {
-  width: 200px; 
+  width: 200px;
   border: 1px solid #000000;
-  white-space: nowrap; 
+  /* white-space: nowrap; */
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -68,8 +78,9 @@ a:link {
   text-decoration: none;
 }
 
-
-table, td, th {
+table,
+td,
+th {
   border: 1px solid black;
 }
 
@@ -99,9 +110,15 @@ table {
   right: 0;
 }
 
-.overflow {
+/* .overflow {
   max-width: 200px;
   max-height: 200px;
+  overflow: auto;
+} */
+
+.overflow {
+  max-height: 300px;
+  max-width: 200px;
   overflow: auto;
 }
 
@@ -111,8 +128,9 @@ table {
 }
 
 .transform-div {
-  /* transform: translate(50px,100px); */
-  /* transform: rotate(20deg); */ /* Clockwise */
+  transform: translate(50px,100px);
+  transform: rotate(20deg);
+  transform: scale(0.5);
 }
 
 .transition {
@@ -133,8 +151,12 @@ table {
 }
 
 @keyframes colorChange {
-  from {background-color: red;}
-  to {background-color: yellow;}
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
 }
 
 .animation-1 {
@@ -145,4 +167,58 @@ table {
   animation-duration: 4s;
   animation-name: colorChange;
   /* animation-timing-function: ease-in; */
+}
+
+#yunus {
+  margin-bottom: 100px;
+}
+
+#yilmaz {
+  margin-top: 80px;
+}
+
+/* .googleLink {
+  color: green;
+}
+
+.googleLink {
+  color: lightblue;
+}
+.googleLink {
+  color: black;
+}
+ */
+.googleLink:hover {
+  background-color: #333;
+  color: #eee !important;
+  padding: 12px;
+}
+
+.override-text {
+  color: pink !important;
+}
+
+.override-container > .override-text {
+  color: aqua;
+}
+
+.override-text {
+  color: green;
+}
+
+.override-text {
+  color: red;
+}
+
+.position-div {
+  height: 500px;
+  width: 500px;
+  border: 1px solid #ddd;
+}
+
+.required::after {
+  content: '*';
+  color: #ef1223;
+  margin-left: 6px;
+  font-size: 12px,-;
 }

@@ -4,12 +4,12 @@
   background-color: lightgray;
   display: grid;
   /* display: inline-grid; */
-  grid-template-columns: 50px 50px 50px;
-  /* grid-template-columns: auto auto auto; */
-  /* grid-template-columns: repeat(3, auto); */
+  /* grid-template-columns: 50px 50px 50px; */
+  /* grid-template-columns: auto auto auto auto; */
+  /* grid-template-columns: repeat(4, 'auto'); */
   /* grid-template-columns: 1fr 2fr 3fr; */
   /* grid-template-columns: 1fr 2fr 50%; */
-  grid-template-rows: 300px 300px;
+  /* grid-template-rows: 300px 300px; */
   /* grid-template-columns: repeat( auto-fit, minmax(100px, 1fr) ); */
   grid-gap: 20px;
   grid-row-gap: 50px;

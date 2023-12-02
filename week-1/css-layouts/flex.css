@@ -2,12 +2,13 @@ h1, h2 {
   text-align: center;
 }
 .container {
-  border: 1px solid green;
-  width: 400px;
-  height: 400px;
+  border: 1px solid #ddd;
+  margin: 32px;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
+  height: 400px;
+  gap: 6px;
   flex-wrap: wrap;
 }
 .box {
@@ -85,4 +86,34 @@ p {
   justify-self: end;
 }
 
+.grow {
+  display: flex;
+  
+  /* flex-direction: column; */
+}
 
+.grow > div {
+  height: 300px;
+}
+
+.grow > div:first-child {
+  background-color: aqua;
+  flex: 2;
+}
+
+.grow > div:last-child {
+  background-color: blueviolet;
+  flex: 1;
+}
+
+
+.calcExample {
+  background-color: aqua;
+  padding: 32px;
+  height: 400px;
+  width: calc(100% - 108px);
+}
+
+div {
+  display: inline-block;
+}
