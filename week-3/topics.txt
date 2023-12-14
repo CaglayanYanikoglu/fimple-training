@@ -1,0 +1,33 @@
+Kod Review
+
+Primitive Values, Reference Values
+Mutations
+
+Dizi(Array) Veri Tipiyle Çalışmak
+Dizi(Array) Oluşturmak ve Dizi İçindeki Elemanlara Ulaşmak
+Diziye Yeni Eleman Eklemek, Çıkartmak ve Güncellemek
+Array(Dizi) Metotlarının Kullanımı 
+forEach ile Array içerisindeki Öğelerin Çağrılması
+Filter ile Array İçerisinde Sadece İstenilen Bilgilerin Yeni Listeye
+Eklenmesi
+Map ile Array İçerisideki Yapının Değiştirilerek Yeni Liste
+Oluşturulması
+Nesne(Object)
+Object(Nesne) Nedir? Nasıl Oluşturulur?
+Object Anahtar(Key) ve Değer(Value) Yapısının Kullanımı / Erişimi
+Nesnelere Nasıl Metot Ekleriz?
+Object ve Array Destructuring Kullanımı
+try ve catch kullanımı
+
+Callback // Promise //
+Async Javascript
+
+this - binding
+Closures, 
+OOP
+Event Loop
+
+Node Environment
+Task Runners, module bundlers
+CSR, SSR, SSG
+React
