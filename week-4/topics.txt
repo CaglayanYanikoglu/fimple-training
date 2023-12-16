@@ -1,0 +1,37 @@
+API: https://fakestoreapi.com/products
+
+
+SPA nedir?
+React Component nedir?
+Neden Component kullanılır?
+JSX Nedir?
+React Class Component
+Render nedir?
+Class Constructor
+State, props nedir?
+props.children
+setState
+State sadece object mi olabilir?
+React Lifecycles
+constructor ,componentDidMount, componentDidUpdate(prevProps, prevState, snapshot), componentWillUnmount(), shouldComponentUpdate()
+React Function Component
+React function State, props nedir?
+React strict mode
+React Attr Name (className)
+React style
+React if kullanımı
+React One Top Level Element
+React Fragment
+React.Memo // NOT useMemo
+React Hooks
+useState, useEffect, useEffect return
+useMemo, useCallback, useContext, useRef, useReducer
+
+● Router
+● Hoc
+● Portal
+
+● Lazy Load, Code Split
+● Component Design Patterns
+● Performance
+● Error Boundaries
