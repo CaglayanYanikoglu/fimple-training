@@ -17,13 +17,13 @@ const MemoComponent = React.memo(ChildComponent);
 const Calculator = () => {
   const [count, setCount] = useState(0);
 
-  /* const sumNumbers = (x, y) => {
+  const sumNumbers = (x, y) => {
     console.log(x + y);
-  } */
+  }
 
-  const sumNumbers = useCallback((x, y) => {
+ /*  const sumNumbers = useCallback((x, y) => {
     console.log(x + y);
-  }, []);
+  }, []); */
 
   console.log('calculator is rendered');
   return (

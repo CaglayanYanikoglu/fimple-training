@@ -1,0 +1,10 @@
+● Context API(1.saat)
+● Router (2.saat)
+● Hoc (High order Component) (3.saat)
+● Portal (3.saat)
+
+● Lazy Load, Code Split (4.saat)
+● Error Boundaries (5.saat)
+● Performance (5.saat)
+https://caglayanyanikoglu.medium.com/react-performance-improvements-356f81b1904f
+● Component Design Patterns(5.saat)

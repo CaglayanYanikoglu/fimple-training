@@ -28,7 +28,7 @@ useState, useEffect, useEffect return
 useMemo, useCallback, useContext, useRef, useReducer
 
 ● Router
-● Hoc
+● Hoc (High order Component)
 ● Portal
 
 ● Lazy Load, Code Split
