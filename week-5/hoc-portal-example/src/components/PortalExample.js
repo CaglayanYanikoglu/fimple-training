@@ -1,7 +1,7 @@
 import React from 'react';
 import { createPortal } from "react-dom";
 
-const rootPortalElement = document.getElementById('portal-here');
+const rootPortalElement = document.getElementById('portal-modal');
 
 const ModalExample = () => {
   return (
@@ -11,13 +11,22 @@ const ModalExample = () => {
   )
 }
 
+// export default ModalExample;
+
 const PortalExample = () => {
   return createPortal(
     <ModalExample />,
     rootPortalElement
   )
-
-  return <ModalExample />
-};
+}
 
 export default PortalExample;
+
+/* const PortalExample = () => {
+  return createPortal(
+    <ModalExample />,
+    rootPortalElement
+  )
+}; */
+
+// export default PortalExample;

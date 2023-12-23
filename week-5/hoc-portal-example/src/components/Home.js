@@ -33,9 +33,18 @@ const Home = ({ setLoading, name, pageName }) => {
 
   return (
     <div>
-      <p>My name is {name}</p>
-      <Posts posts={posts} />
-      {/* <PortalExample /> */}
+      {/* <Posts posts={posts} /> */}
+      <article>
+        <ul>
+          <li>
+            <PortalExample />
+          </li>
+         {/*  <li>
+            <PortalExample />
+          </li> */}
+        </ul>
+
+      </article>
     </div>
   );
 };
